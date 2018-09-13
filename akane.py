@@ -172,4 +172,4 @@ async def on_message(message):
         await client.send_message(message.channel,(random.choice(variable)))
 
 
-client.run('NDg5MTQ4Mjg4OTE0ODE3MDI1.DnvPlg.FFqSHVG5tgVtzkOI7eyWjDZFeCg')
+client.run('TOKEN')
