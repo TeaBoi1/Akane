@@ -22,7 +22,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content == 'hi Akane':
-        await client.send_message(message.channel,'Hello Onii-Chan')
+        await client.send_message(message.channel,'Hello Onii-Chan')    
     if message.content == 'Akane im back from school':
         await client.send_message(message.channel,'Make sure to rest and then do your homework ^^ your anime episode for today is (Anime)')
     if message.content == 'Akane who is Nova?':
@@ -170,6 +170,10 @@ async def on_message(message):
             'Retro',
             'Shad',]
         await client.send_message(message.channel,(random.choice(variable)))
+    if message.content == '!give Akane ramen':
+        em = discord.Embed(description='So warm and delicious')
+        em.set_image(url='https://media.discordapp.net/attachments/489868787596787722/490217689709805588/meh.gif')
+        await client.send_message(message.channel, embed=em)
 
 
 client.run(os.getenv('TOKEN'))
