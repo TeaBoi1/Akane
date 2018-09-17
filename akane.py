@@ -55,6 +55,8 @@ async def on_message(message):
         await client.send_message(message.channel,'Im trying to make a paperplane but i cant make it symmetrical @R3TR0 B0Y#0106 Can u help me?')
     if message.content == 'good morning':
         await client.send_message(message.channel,'GOOD MORNING')
+    if message.content == 'Akane who is Retro?':
+        await client.send_message(message.channel,'Retro is Ali and he is the BEST PLAYER WITH A CONTROLLER! when he plays games its like he made them')    
     if message.content == 'Im hungry':
         await client.send_message(message.channel,'LETS GET SOME FOOD')
     if message.content == 'im back':
