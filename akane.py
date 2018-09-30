@@ -176,6 +176,11 @@ async def on_message(message):
         em = discord.Embed(description='So warm and delicious')
         em.set_image(url='https://media.discordapp.net/attachments/489868787596787722/490217689709805588/meh.gif')
         await client.send_message(message.channel, embed=em)
+    if message.content == 'Akane do You like TheGamesbg?':
+        variable = [
+            'OF COURSE',
+            'YAS',]
+        await client.send_message(message.channel,(random.choice(variable)))
 
 
 client.run(os.getenv('TOKEN'))
