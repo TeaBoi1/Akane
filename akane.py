@@ -15,14 +15,14 @@ Clientdiscord = discord.Client()
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=Game(name='with my toys'))
+    await client.change_presence(game=Game(name='Reverie'))
     print('Ready') 
 
 
 @client.event
 async def on_message(message):
-    if message.content == 'hi Akane':
-        await client.send_message(message.channel,'Hello Onii-Chan')    
+    if message.content == 'yo ikumi':
+        await client.send_message(message.channel,'hey')    
     if message.content == 'Akane im back from school':
         await client.send_message(message.channel,'Make sure to rest and then do your homework ^^ your anime episode for today is (Anime)')
     if message.content == 'Akane who is Nova?':
