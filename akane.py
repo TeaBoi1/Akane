@@ -29,6 +29,8 @@ async def on_message(message):
         await client.send_message(message.channel,'Nova is Rand. Someone that knows how to do some satisfying  calligraphy')
     if message.content == 'lurks':
         await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/489171674764410941.png?v=1')
+    if message.content == 'tt':
+        await client.send_message(message.channel,'https://cdn.discordapp.com/attachments/467800982835691520/505345484995428352/image0.jpg')
     if message.content == 'hugs Akane':
         await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/489171686210404363.png?v=1')
     if message.content == 'hmph':
