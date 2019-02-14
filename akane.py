@@ -63,8 +63,8 @@ async def on_message(message):
         await client.send_message(message.channel,'LETS GET SOME FOOD')
     if message.content == 'im back':
         await client.send_message(message.channel,'Welcome back ')
-    if message.content == '!give Akane icecream':
-        em = discord.Embed(description='Yummy!')
+    if message.content == '!Live':
+        await client.send_message(message.channel,'https://www.youtube.com/channel/UCsT1iWCqFjXe5438KRTZNgw')
         em.set_image(url='https://media.discordapp.net/attachments/454724320782974986/489393181163782145/b1f25ab558ac4c7ffa15d0fada68a0b7bed6f926_hq.gif?width=486&height=273')
         await client.send_message(message.channel, embed=em)
     if message.content == 'Akane who is loli.exe?':
