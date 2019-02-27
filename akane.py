@@ -21,8 +21,8 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content == 'yo ikumi':
-        await client.send_message(message.channel,'hey')    
+    if message.content == 'hi raphtalia':
+        await client.send_message(message.channel,'Hello ^^')    
     if message.content == 'Akane im back from school':
         await client.send_message(message.channel,'Make sure to rest and then do your homework ^^ your anime episode for today is (Anime)')
     if message.content == 'Akane who is Nova?':
@@ -31,7 +31,7 @@ async def on_message(message):
         await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/489171674764410941.png?v=1')
     if message.content == 'tt':
         await client.send_message(message.channel,'https://cdn.discordapp.com/attachments/489868787596787722/538696028489252864/image0.jpg')
-    if message.content == 'hugs Akane':
+    if message.content == 'hugs Raphtalia':
         await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/489171686210404363.png?v=1')
     if message.content == 'hmph':
         await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/489171684465836032.png?v=1')
@@ -69,10 +69,10 @@ async def on_message(message):
         await client.send_message(message.channel, embed=em)
     if message.content == 'Akane who is loli.exe?':
         await client.send_message(message.channel,'He is Shad, a fun optimistic guy who loves memes and is alot of fun to talk with! ')
-    if message.content == 'AKANE GET WATER':
+    if message.content == 'RAPHTALIA GET THE WATER':
         await client.send_message(message.channel,'OK OK WAIT')
-    if message.content == 'Akane introduce yourself':
-        await client.send_message(message.channel,'Hello im Akane im 8 years old and i love you all')
+    if message.content == 'Raphtalia introduce yourself':
+        await client.send_message(message.channel,'HEWO Im Raphtalia Im Teabois Helper Assistant')
     if message.content == 'attackerplz':
         variable = [
             'Maverick',
