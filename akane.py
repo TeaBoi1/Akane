@@ -15,7 +15,7 @@ Clientdiscord = discord.Client()
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=Game(name='Eid Mubarak'))
+    await client.change_presence(game=Game(name='with Diyari'))
     print('Ready') 
 
 
