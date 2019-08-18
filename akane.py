@@ -21,7 +21,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content == 'hi:
+    if message.content == 'hi':
         await client.send_message(message.channel,'Hello')
     if message.content == '!Live':
         await client.send_message(message.channel,'https://www.youtube.com/channel/UCFJsbAeFDM-zPsb1AlqIq8w')
